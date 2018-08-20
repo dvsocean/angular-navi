@@ -1,4 +1,12 @@
-<p>
-  person works!
-  and this is the last time
-</p>
+
+<form>
+  <label>ID:</label><br>
+  <input type="text" name="id"><br><br>
+
+  <label>Name:</label><br>
+  <input [(ngModel)]="person.name" type="text" name="name"><br><br>
+
+  <label>Surname:</label><br>
+  <input type="text" name="surname"><br><br>
+</form>
+
