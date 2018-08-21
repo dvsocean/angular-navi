@@ -1,12 +1,16 @@
 
 <form>
   <label>ID:</label><br>
-  <input type="text" name="id"><br><br>
+  <input [(ngModel)]="person.id" type="text" name="id"><br><br>
 
-  <label>Name:</label><br>
+  <label for="name">Name:</label><br>
   <input [(ngModel)]="person.name" type="text" name="name"><br><br>
 
   <label>Surname:</label><br>
-  <input type="text" name="surname"><br><br>
+  <input [(ngModel)]="person.surname" type="text" name="surname"><br><br>
+
+  <label>Testfield:</label><br>
+  <input [(ngModel)]="dsTitle" type="text" name="dsTitle"><br><br>
 </form>
+
 

@@ -13,9 +13,9 @@ export class PersonComponent implements OnInit {
   ngOnInit() {
   }
 
-  person: Person = {
-    id: 1,
-    name: 'Daniel',
-    surname: 'Ocean'
-  }
+  //All varibales can be passed to the frontend component. It doesnt have to be an object
+  person = new Person(1, "Daniel", "Ocean");
+  dsTitle = 'This message was found to be really heavy and applicable';
+
+
 }

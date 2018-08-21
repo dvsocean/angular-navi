@@ -7,6 +7,7 @@ import { HardwareComponent } from './hardware/hardware.component';
 import { PersonComponent } from './person/person.component';
 import { CarComponent } from './car/car.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NavigationComponent } from './navigation/navigation.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
